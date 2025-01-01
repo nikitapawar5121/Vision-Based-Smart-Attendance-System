@@ -65,3 +65,42 @@ The Vision-Based Smart Attendance System is an innovative and efficient solution
    ```bash
    git clone <https://github.com/nikitapawar5121/Vision-Based-Smart-Attendance-System.git>
    cd Vision-Based-Smart-Attendance-System
+2. Install Required Libraries
+•	Ensure Python is installed on your system, then install the required libraries:
+pip install -r requirements.txt
+
+3. Configure the Database
+•	Set up the SQLite3 database:
+o	Ensure the attendance.db file exists or create it.
+o	Use the following SQL commands to initialize the tables (if needed):
+CREATE TABLE users (id INTEGER PRIMARY KEY, name TEXT,    eye_encoding BLOB);
+CREATE TABLE attendance (id INTEGER PRIMARY KEY, user_id INTEGER,   timestamp TEXT);
+4. Add EYE Data
+•	Run the script to register users by capturing their eye data:
+      python add_user.py
+5. Run the Program
+•	Start the attendance system:
+python main.py
+6. View Attendance Records
+•	Use the admin panel (if available) or directly query the database:
+sqlite3 attendance.db
+SELECT * FROM attendance
+7. Stop the Program
+•	Press Ctrl + C in the terminal to stop the system.
+
+
+8.Future scope:
+IoT Integration
+•	Combine your system with IoT devices such as RFID tags or smart cards for multi-factor attendance verification.
+•	Use smart devices to automatically detect if the student is present within the classroom vicinity.
+Mobile App for Attendance Management
+•	Develop a mobile application that allows teachers and administrators to:
+o	View attendance records in real time.
+o	Generate reports.
+o	Get notifications for irregular attendance patterns.
+Database  Management	
+•	We can add time in the table format sqlite database.
+
+
+
+
