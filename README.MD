@@ -90,15 +90,10 @@ SELECT * FROM attendance
 
 
 8.Future scope:
-IoT Integration
-•	Combine your system with IoT devices such as RFID tags or smart cards for multi-factor attendance verification.
-•	Use smart devices to automatically detect if the student is present within the classroom vicinity.
-Mobile App for Attendance Management
-•	Develop a mobile application that allows teachers and administrators to:
-o	View attendance records in real time.
-o	Generate reports.
-o	Get notifications for irregular attendance patterns.
-Database  Management	
+-IoT Integration
+o	-Generate reports.
+o	-Get notifications for irregular attendance patterns.
+-Database  Management	
 •	We can add time in the table format sqlite database.
 
 
