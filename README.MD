@@ -91,6 +91,21 @@ SELECT * FROM attendance
 
 # Attendance Management System - Future Scope
 
+## IoT Integration
+
+- **Multi-factor Attendance Verification**:  
+  - Combine the system with IoT devices such as RFID tags or smart cards for multi-factor attendance verification.
+  - Use smart devices to automatically detect if the student is present within the classroom vicinity.
+
+## Mobile App for Attendance Management
+
+- **Real-Time Attendance View**:  
+  - Develop a mobile application that allows teachers and administrators to view attendance records in real time.
+  
+- **Report Generation**:  
+  - Teachers and administrators can generate attendance reports directly from the mobile app.
+# Attendance Management System - Future Scope
+
 This project aims to improve attendance management through innovative features like IoT integration, a mobile app for real-time attendance tracking, and a robust database management system. Below are the key components of the future scope of the system.
 
 ## IoT Integration
@@ -109,6 +124,26 @@ This project aims to improve attendance management through innovative features l
 
 - **Attendance Pattern Notifications**:  
   - Get notifications for irregular attendance patterns, helping administrators track and manage attendance more efficiently.
+
+## Database Management
+
+- **Time Management in Database**:  
+  - Implement a time management feature in the SQLite database, recording timestamps of student attendance in a table format.
+
+## Technologies Used
+
+- **IoT Devices**: RFID Tags, Smart Cards
+- **Mobile Application**: Android/iOS (for future integration)
+- **Database**: SQLite
+
+## Future Goals
+
+- Extend the system with more IoT devices.
+- Build and deploy the mobile app for real-time tracking and reporting.
+- Optimize the database structure for scalability and efficiency.
+
+Feel free to contribute, report bugs, or suggest improvements!
+
 
 ## Database Management
 
